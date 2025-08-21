@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static website for iMediahouse Basel, a mobile phone repair and trading business. The site is built with vanilla HTML, CSS, and JavaScript - no build tools or frameworks are used.
+This is a static website for iMediahuus Basel, a mobile phone repair and trading business. The site is built with vanilla HTML, CSS, and JavaScript - no build tools or frameworks are used.
 
 ## Architecture & Structure
 
@@ -75,7 +75,7 @@ This project uses no build tools, package managers, or compilation steps. Files 
 
 ## Business Context
 
-- **Company**: iMediahouse Basel (20 years in business)
+- **Company**: iMediahuus Basel (20 years in business)
 - **Services**: Mobile phone repairs, buying/selling used phones
 - **Location**: Basel, Switzerland
 - **Target Audience**: German-speaking customers in Basel area
