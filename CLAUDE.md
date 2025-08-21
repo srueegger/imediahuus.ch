@@ -4,28 +4,34 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static website for iMediahuus Basel, a mobile phone repair and trading business. The site is built with vanilla HTML, CSS, and JavaScript - no build tools or frameworks are used.
+This is a PHP website for iMediahuus Basel, a mobile phone repair and trading business. The site uses modern PHP with a custom lightweight framework, along with vanilla CSS and JavaScript.
 
 ## Architecture & Structure
 
-- **Static Website**: Pure HTML/CSS/JavaScript with no build process
-- **Multi-page Structure**: 
-  - `index.html` - Main homepage with services overview
-  - `reparaturen.html` - Repair services page
-  - `ankauf-verkauf.html` - Buy/sell page with toggle functionality
-- **Shared Resources**:
-  - `styles.css` - Single comprehensive stylesheet for all pages
-  - `script.js` - Shared JavaScript for navigation, animations, and interactions
+- **PHP Website**: Modern PHP with custom lightweight framework
+- **Clean URL Structure**: 
+  - `/` - Main homepage with services overview
+  - `/reparaturen` - Repair services page
+  - `/ankauf-verkauf` - Buy/sell page with toggle functionality
+- **File Organization**:
+  - `index.php` - Main router and entry point
+  - `includes/` - Configuration, functions, and template
+  - `pages/` - Individual page content
+  - `styles.css` - Single comprehensive stylesheet
+  - `script.js` - JavaScript for navigation, animations, and interactions
+  - `.htaccess` - URL rewriting and security headers
 
 ## Development Workflow
 
-### No Build Commands
-This project uses no build tools, package managers, or compilation steps. Files are served directly.
+### Development Commands
+- **Local Server**: `php -S localhost:8000` (built-in PHP server)
+- **Syntax Check**: `php -l index.php` (check PHP syntax)
+- **No Build Process**: Changes are immediately visible on page refresh
 
-### Local Development
-- Open HTML files directly in browser or use a simple HTTP server
-- Changes to CSS/JS are immediately visible on page refresh
-- No installation or setup required
+### Requirements
+- PHP 7.4+ (compatible with PHP 8.x)
+- Apache with mod_rewrite (for production)
+- No database or external dependencies required
 
 ### Testing
 - Manual testing in browsers
@@ -34,7 +40,13 @@ This project uses no build tools, package managers, or compilation steps. Files 
 
 ## Code Conventions
 
-### HTML Structure
+### PHP Structure
+- **MVC-like Architecture**: Router, templates, and page content separation
+- **Security**: XSS protection via `htmlspecialchars()` escaping
+- **Clean URLs**: SEO-friendly routes without file extensions
+- **DRY Principle**: Shared navigation, footer, and configuration
+
+### HTML Output
 - German language content (`lang="de"`)
 - Semantic HTML5 structure
 - Consistent navigation structure across all pages
@@ -54,6 +66,7 @@ This project uses no build tools, package managers, or compilation steps. Files 
 - Intersection Observer for scroll animations
 - Toggle functionality for buy/sell sections
 - No external dependencies or frameworks
+- Works identically with PHP routing
 
 ## Key Features
 
@@ -93,4 +106,11 @@ This project uses no build tools, package managers, or compilation steps. Files 
 
 ## Deployment
 
-This is a static site that can be deployed to any web server by uploading the files directly. No server-side processing required.
+This PHP site can be deployed to any web server with PHP support:
+
+1. Upload all files to web server
+2. Ensure Apache has mod_rewrite enabled
+3. Configure virtual host or upload to document root
+4. No database setup required
+
+**Requirements**: PHP 7.4+, Apache with mod_rewrite

@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iMediahuus - Handy Ankauf & Verkauf Basel - Faire Preise</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>📱 iMediahuus</h2>
-                <span class="slogan">einfach anders denken</span>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="nav-link">Startseite</a></li>
-                <li><a href="reparaturen.html" class="nav-link">Reparaturen</a></li>
-                <li><a href="ankauf-verkauf.html" class="nav-link active">An- & Verkauf</a></li>
-            </ul>
-        </div>
-    </nav>
-
     <section class="page-hero">
         <div class="container">
             <h1>Handy Ankauf & Verkauf</h1>
@@ -267,47 +239,24 @@
                     <h2>Interesse geweckt?</h2>
                     <div class="contact-item">
                         <strong>📍 Besuchen Sie uns:</strong>
-                        <p>Güterstrasse 249<br>4053 Basel</p>
+                        <p><?php echo CONTACT_ADDRESS; ?></p>
                     </div>
                     <div class="contact-item">
                         <strong>📞 Vorab informieren:</strong>
-                        <p>061 554 16 00</p>
+                        <p><?php echo e(CONTACT_PHONE); ?></p>
                     </div>
                     <div class="contact-item">
                         <strong>🕒 Öffnungszeiten:</strong>
-                        <p>Mo-Do: 10:00-19:00<br>Fr: 10:00-12:00, 14:00-19:00<br>Sa: 10:00-18:00<br>So: Geschlossen</p>
+                        <p><?php echo implode('<br>', OPENING_HOURS); ?></p>
                     </div>
                     <div class="urgent-note">
                         <strong>💡 Tipp:</strong> Rufen Sie vorher an - wir reservieren Ihnen Ihr Wunschgerät!
                     </div>
                 </div>
                 <div class="contact-actions">
-                    <a href="tel:0615541600" class="btn btn-primary">Jetzt anrufen</a>
-                    <a href="index.html" class="btn btn-secondary">Zur Startseite</a>
+                    <a href="<?php echo e(getPhoneLink()); ?>" class="btn btn-primary">Jetzt anrufen</a>
+                    <a href="./" class="btn btn-secondary">Zur Startseite</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>iMediahuus</h4>
-                    <p>Ihr vertrauensvoller Partner<br>seit 20 Jahren</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Kontakt</h4>
-                    <p>Güterstrasse 249<br>4053 Basel<br>Tel: 061 554 16 00<br>E-Mail: <a href="mailto:info@imediahuus.ch">info@imediahuus.ch</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Öffnungszeiten</h4>
-                    <p>Mo-Do: 10:00-19:00<br>Fr: 10:00-12:00<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:00-19:00<br>Sa: 10:00-18:00<br>So: Geschlossen</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
