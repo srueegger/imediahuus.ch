@@ -14,7 +14,7 @@ require_once 'includes/functions.php';
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>📱 <?php echo e(SITE_TITLE); ?></h2>
+                <h2>📱 <span class="logo-i">i</span>Mediahuus Basel</h2>
                 <span class="slogan"><?php echo e(SITE_SLOGAN); ?></span>
             </div>
             <div class="hamburger" id="hamburger">
