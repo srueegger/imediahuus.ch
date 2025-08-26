@@ -16,8 +16,8 @@ define('CONTACT_EMAIL', 'info@imediahuus.ch');
 // Opening hours
 define('OPENING_HOURS', [
     'Mo-Do: 10:00-19:00',
-    'Fr: 10:00-12:00',
-    '      14:00-19:00',
+    'Fr: 10:00-13:00',
+    '      15:00-19:00',
     'Sa: 10:00-18:00',
     'So: Geschlossen'
 ]);

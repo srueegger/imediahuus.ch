@@ -102,7 +102,7 @@ This is a PHP website for iMediahuus Basel, a mobile phone repair and trading bu
 - Contact information consistent across all pages:
   - Address: Güterstrasse 249, 4053 Basel
   - Phone: 061 554 16 00
-  - Hours: Mo-Do: 10:00-19:00, Fr: 10:00-12:00/14:00-19:00, Sa: 10:00-18:00
+  - Hours: Mo-Do: 10:00-19:00, Fr: 10:00-13:00/15:00-19:00, Sa: 10:00-18:00
 
 ## Deployment
 
