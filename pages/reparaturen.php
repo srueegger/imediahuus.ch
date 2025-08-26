@@ -1,40 +1,37 @@
     <section class="page-hero">
         <div class="container">
-            <h1>Professionelle Handy-Reparaturen</h1>
-            <p>20 Jahre Erfahrung • Faire Preise • Schneller Service</p>
+            <h1>Professionelle Gerät-Reparaturen</h1>
+            <p>20 Jahre Erfahrung • Smartphones • Tablets • Notebooks</p>
         </div>
     </section>
 
     <section class="repair-services">
         <div class="container">
-            <h2>Unsere Reparatur-Services</h2>
+            <h2>Reparatur-Services für alle Geräte</h2>
             <div class="repair-grid">
                 <div class="repair-card">
                     <div class="repair-icon">📱</div>
                     <h3>Display-Reparatur</h3>
-                    <div class="price">ab 49 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Originalqualität Displays</li>
                         <li>✓ Meist am selben Tag</li>
                         <li>✓ 6 Monate Garantie</li>
-                        <li>✓ Alle Marken</li>
+                        <li>✓ Smartphones, Tablets, Notebooks</li>
                     </ul>
                 </div>
                 <div class="repair-card">
                     <div class="repair-icon">🔋</div>
                     <h3>Akku-Wechsel</h3>
-                    <div class="price">ab 29 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Hochwertige Akkus</li>
                         <li>✓ Sofort-Service</li>
                         <li>✓ Kostenloser Check</li>
-                        <li>✓ Umweltgerecht entsorgt</li>
+                        <li>✓ Für alle Gerätetypen verfügbar</li>
                     </ul>
                 </div>
                 <div class="repair-card">
                     <div class="repair-icon">💧</div>
                     <h3>Wasserschaden</h3>
-                    <div class="price">ab 59 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Professionelle Reinigung</li>
                         <li>✓ Datenrettung möglich</li>
@@ -45,7 +42,6 @@
                 <div class="repair-card">
                     <div class="repair-icon">🔊</div>
                     <h3>Lautsprecher</h3>
-                    <div class="price">ab 39 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Originalteile</li>
                         <li>✓ Perfekter Sound</li>
@@ -56,7 +52,6 @@
                 <div class="repair-card">
                     <div class="repair-icon">📷</div>
                     <h3>Kamera-Reparatur</h3>
-                    <div class="price">ab 69 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Front- & Rückkamera</li>
                         <li>✓ Linsen-Austausch</li>
@@ -67,7 +62,6 @@
                 <div class="repair-card">
                     <div class="repair-icon">🔌</div>
                     <h3>Ladebuchse</h3>
-                    <div class="price">ab 45 CHF</div>
                     <ul class="repair-features">
                         <li>✓ Lightning & USB-C</li>
                         <li>✓ Staubentfernung</li>
@@ -75,6 +69,32 @@
                         <li>✓ Funktionstest inklusive</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="device-types">
+        <div class="container">
+            <h2>Welche Geräte reparieren wir?</h2>
+            <div class="device-categories">
+                <div class="device-category">
+                    <div class="device-icon">📱</div>
+                    <h3>Smartphones</h3>
+                    <p>iPhone (alle Modelle), Samsung Galaxy Serie, Google Pixel, OnePlus, Huawei, Xiaomi, Oppo, Sony Xperia, Nothing Phone und viele weitere Android-Smartphones</p>
+                </div>
+                <div class="device-category">
+                    <div class="device-icon">💻</div>
+                    <h3>Notebooks & Laptops</h3>
+                    <p>MacBook Pro, MacBook Air, ThinkPad, Dell XPS, HP Pavilion, ASUS, Acer, MSI Gaming-Laptops, Surface Laptop und weitere Windows-Notebooks</p>
+                </div>
+                <div class="device-category">
+                    <div class="device-icon">📟</div>
+                    <h3>Tablets</h3>
+                    <p>iPad (alle Generationen), iPad Pro, iPad Air, iPad Mini, Samsung Galaxy Tab, Surface Pro, Amazon Fire Tablet und Android-Tablets aller Hersteller</p>
+                </div>
+            </div>
+            <div class="compatibility-note">
+                <p><strong>Ihr Gerät nicht dabei?</strong> Kein Problem! Wir reparieren praktisch alle elektronischen Geräte. Rufen Sie uns an oder kommen Sie vorbei - wir finden eine Lösung für Ihr Problem.</p>
             </div>
         </div>
     </section>
@@ -129,7 +149,7 @@
                 <div class="guarantee-item">
                     <div class="guarantee-icon">🔧</div>
                     <h3>Alle Marken</h3>
-                    <p>iPhone, Samsung, Huawei, OnePlus, Xiaomi und viele mehr</p>
+                    <p>Smartphones, Tablets, Notebooks - alle Marken und Modelle</p>
                 </div>
             </div>
         </div>

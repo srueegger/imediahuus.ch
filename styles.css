@@ -774,6 +774,62 @@ body {
     line-height: 1.6;
 }
 
+/* Device Types Section */
+.device-types {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f5e8 100%);
+    padding: 4rem 0;
+}
+
+.device-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.device-category {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    border-top: 4px solid #9ee058;
+}
+
+.device-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.device-category h3 {
+    color: #9ee058;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.device-category p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.compatibility-note {
+    background: rgba(158, 224, 88, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #9ee058;
+    text-align: center;
+}
+
+.compatibility-note p {
+    margin: 0;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 /* Selling Process */
 .selling-process {
     margin-bottom: 4rem;
@@ -1208,7 +1264,8 @@ body {
     .benefit-grid,
     .value-grid,
     .testimonials-grid,
-    .price-grid {
+    .price-grid,
+    .device-categories {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
