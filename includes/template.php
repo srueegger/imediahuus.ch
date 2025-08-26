@@ -8,6 +8,56 @@ require_once 'includes/functions.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo e(getPageTitle($current_page)); ?></title>
+    <meta name="description" content="<?php echo e(getPageDescription($current_page)); ?>">
+    <meta name="keywords" content="<?php echo e(getPageKeywords($current_page)); ?>">
+    <meta name="author" content="iMediahuus Basel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="<?php echo e(getCanonicalUrl($current_page)); ?>">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo e(getCanonicalUrl($current_page)); ?>">
+    <meta property="og:title" content="<?php echo e(getPageTitle($current_page)); ?>">
+    <meta property="og:description" content="<?php echo e(getPageDescription($current_page)); ?>">
+    <meta property="og:site_name" content="<?php echo e(SITE_TITLE); ?>">
+    <meta property="og:locale" content="de_CH">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="<?php echo e(getPageTitle($current_page)); ?>">
+    <meta property="twitter:description" content="<?php echo e(getPageDescription($current_page)); ?>">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "<?php echo e(SITE_TITLE); ?>",
+      "description": "<?php echo e(SITE_DESCRIPTION); ?>",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Güterstrasse 249",
+        "addressLocality": "Basel",
+        "postalCode": "4053",
+        "addressCountry": "CH"
+      },
+      "telephone": "+41755009000",
+      "email": "<?php echo e(CONTACT_EMAIL); ?>",
+      "url": "https://imediahuus.ch",
+      "openingHours": "Mo-Do 10:00-19:00, Fr 10:00-13:00 15:00-19:00, Sa 10:00-18:00",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "200"
+      }
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>

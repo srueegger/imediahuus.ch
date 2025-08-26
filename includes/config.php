@@ -35,4 +35,18 @@ define('PAGE_TITLES', [
     'reparaturen' => SITE_TITLE . ' - Handy Reparaturen Basel - Schnell & Günstig',
     'ankauf-verkauf' => SITE_TITLE . ' - Handy Ankauf & Verkauf Basel - Faire Preise'
 ]);
+
+// SEO Meta Descriptions
+define('PAGE_DESCRIPTIONS', [
+    'home' => '20 Jahre Erfahrung in Basel: Professionelle Handy-Reparaturen, fairer Ankauf & Verkauf. iPhone, Samsung, Huawei - alle Marken. Schnell, günstig, mit Garantie.',
+    'reparaturen' => 'Handy kaputt? Display, Akku, Wasserschaden - wir reparieren alle Marken in Basel. Schnell, günstig, 6 Monate Garantie. iPhone, Samsung, Huawei & mehr.',
+    'ankauf-verkauf' => 'Handy verkaufen oder kaufen in Basel: Faire Preise für Ihr altes Gerät. Grosse Auswahl geprüfter Gebrauchthandys mit Garantie. Alle Marken verfügbar.'
+]);
+
+// SEO Keywords
+define('PAGE_KEYWORDS', [
+    'home' => 'iMediahuus, Basel, Handy Reparatur, Smartphone Reparatur, iPhone Reparatur, Samsung Reparatur, Handy Ankauf, Handy Verkauf, Güterstrasse',
+    'reparaturen' => 'Handy Reparatur Basel, Display Reparatur, Akku Wechsel, Wasserschaden, iPhone Reparatur, Samsung Reparatur, Smartphone Service, Güterstrasse Basel',
+    'ankauf-verkauf' => 'Handy Ankauf Basel, Handy Verkauf Basel, Gebrauchte Handys, iPhone kaufen, Samsung kaufen, Smartphone Ankauf, faire Preise, Garantie'
+]);
 ?>
