@@ -50,7 +50,7 @@ function e($string) {
  * Generate phone link
  */
 function getPhoneLink() {
-    return 'tel:' . str_replace(' ', '', CONTACT_PHONE);
+    return 'tel:+41755009000';
 }
 
 /**
@@ -58,5 +58,30 @@ function getPhoneLink() {
  */
 function getEmailLink() {
     return 'mailto:' . CONTACT_EMAIL;
+}
+
+/**
+ * Get page meta description
+ */
+function getPageDescription($page) {
+    return PAGE_DESCRIPTIONS[$page] ?? SITE_DESCRIPTION;
+}
+
+/**
+ * Get page keywords
+ */
+function getPageKeywords($page) {
+    return PAGE_KEYWORDS[$page] ?? '';
+}
+
+/**
+ * Get canonical URL for current page
+ */
+function getCanonicalUrl($page) {
+    $base_url = 'https://imediahuus.ch';
+    if ($page === 'home') {
+        return $base_url . '/';
+    }
+    return $base_url . '/' . $page;
 }
 ?>
