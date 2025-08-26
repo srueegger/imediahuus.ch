@@ -21,31 +21,29 @@
                 <p>Verkaufen Sie Ihr altes Handy zu fairen Preisen - auch defekte Geräte nehmen wir gerne!</p>
             </div>
             
-            <div class="price-examples">
-                <h3>Aktuelle Ankaufspreise (Beispiele)</h3>
-                <div class="price-grid">
-                    <div class="price-card">
-                        <div class="device-name">iPhone 14 Pro</div>
-                        <div class="condition">Sehr gut</div>
-                        <div class="price-range">bis 750 CHF</div>
-                    </div>
-                    <div class="price-card">
-                        <div class="device-name">Samsung Galaxy S23</div>
-                        <div class="condition">Gut</div>
-                        <div class="price-range">bis 450 CHF</div>
-                    </div>
-                    <div class="price-card">
-                        <div class="device-name">iPhone 13</div>
-                        <div class="condition">Sehr gut</div>
-                        <div class="price-range">bis 520 CHF</div>
-                    </div>
-                    <div class="price-card">
-                        <div class="device-name">OnePlus 11</div>
-                        <div class="condition">Gut</div>
-                        <div class="price-range">bis 380 CHF</div>
+            <div class="supported-devices">
+                <h3>Wir kaufen alle Smartphone-Marken</h3>
+                <div class="device-brands">
+                    <div class="brand-grid">
+                        <div class="brand-item">
+                            <h4>Apple</h4>
+                            <p>iPhone 15 Pro Max, iPhone 15 Pro, iPhone 15 Plus, iPhone 15, iPhone 14 Pro Max, iPhone 14 Pro, iPhone 14 Plus, iPhone 14, iPhone 13 Pro Max, iPhone 13 Pro, iPhone 13 Mini, iPhone 13, iPhone 12 Pro Max, iPhone 12 Pro, iPhone 12 Mini, iPhone 12, iPhone 11 Pro Max, iPhone 11 Pro, iPhone 11, iPhone SE</p>
+                        </div>
+                        <div class="brand-item">
+                            <h4>Samsung Galaxy</h4>
+                            <p>Galaxy S24 Ultra, Galaxy S24 Plus, Galaxy S24, Galaxy S23 Ultra, Galaxy S23 Plus, Galaxy S23, Galaxy S22 Ultra, Galaxy S22 Plus, Galaxy S22, Galaxy S21 Ultra, Galaxy S21 Plus, Galaxy S21, Galaxy Note 20 Ultra, Galaxy Note 20, Galaxy Z Fold, Galaxy Z Flip</p>
+                        </div>
+                        <div class="brand-item">
+                            <h4>Google Pixel</h4>
+                            <p>Pixel 8 Pro, Pixel 8, Pixel 7a, Pixel 7 Pro, Pixel 7, Pixel 6a, Pixel 6 Pro, Pixel 6, Pixel 5a, Pixel 5, Pixel 4a, Pixel 4</p>
+                        </div>
+                        <div class="brand-item">
+                            <h4>Weitere Top-Marken</h4>
+                            <p>OnePlus 12, OnePlus 11, OnePlus 10 Pro, Huawei P60 Pro, Huawei P50 Pro, Xiaomi 14 Ultra, Xiaomi 13 Pro, Oppo Find X6 Pro, Sony Xperia 1 V, Nothing Phone, Fairphone</p>
+                        </div>
                     </div>
                 </div>
-                <p class="price-note">*Preise sind Richtwerte und abhängig vom genauen Zustand des Geräts</p>
+                <p class="device-note">Auch defekte Geräte, ältere Modelle und weniger bekannte Marken nehmen wir gerne entgegen. Jedes Smartphone hat einen Wert!</p>
             </div>
 
             <div class="selling-process">
@@ -110,28 +108,31 @@
             </div>
 
             <div class="device-categories">
-                <h3>Unsere Top-Marken</h3>
+                <h3>Große Auswahl geprüfter Smartphones</h3>
                 <div class="category-grid">
                     <div class="category-card">
                         <div class="category-icon">📱</div>
-                        <h4>iPhone</h4>
-                        <p>Von iPhone 11 bis iPhone 14 Pro<br>ab 299 CHF</p>
+                        <h4>Apple iPhone</h4>
+                        <p>iPhone 15 Pro Max, iPhone 15 Pro, iPhone 15, iPhone 14 Pro, iPhone 13 Pro, iPhone 12, iPhone 11 und weitere Modelle</p>
                     </div>
                     <div class="category-card">
                         <div class="category-icon">📱</div>
-                        <h4>Samsung</h4>
-                        <p>Galaxy S-Serie & Note<br>ab 189 CHF</p>
+                        <h4>Samsung Galaxy</h4>
+                        <p>Galaxy S24 Ultra, Galaxy S23, Galaxy S22, Galaxy S21, Galaxy Note Serie, Galaxy Z Fold und Z Flip Modelle</p>
                     </div>
                     <div class="category-card">
                         <div class="category-icon">📱</div>
-                        <h4>Huawei</h4>
-                        <p>P-Serie & Mate-Serie<br>ab 149 CHF</p>
+                        <h4>Google Pixel</h4>
+                        <p>Pixel 8 Pro, Pixel 7a, Pixel 6 Pro und weitere Google Smartphones mit reinem Android</p>
                     </div>
                     <div class="category-card">
                         <div class="category-icon">📱</div>
-                        <h4>OnePlus</h4>
-                        <p>Flaggschiff-Killer<br>ab 199 CHF</p>
+                        <h4>Premium-Marken</h4>
+                        <p>OnePlus, Huawei P-Serie, Xiaomi, Oppo, Sony Xperia, Nothing Phone und weitere Top-Smartphones</p>
                     </div>
+                </div>
+                <div class="availability-info">
+                    <p><strong>Aktuelle Verfügbarkeit:</strong> Unser Lager wird täglich mit neuen Geräten aufgefüllt. Rufen Sie uns an oder kommen Sie vorbei, um die neuesten verfügbaren Modelle zu sehen. Wir führen Smartphones aller Preisklassen - vom Einsteiger-Handy bis zum Premium-Flaggschiff.</p>
                 </div>
             </div>
 
@@ -215,12 +216,12 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
-                    <p>"Mein iPhone 13 für 450 CHF statt 900 CHF neu - unschlagbar! Läuft perfekt seit 8 Monaten."</p>
+                    <p>"Mein iPhone 13 zu einem super Preis - unschlagbar! Läuft perfekt seit 8 Monaten."</p>
                     <cite>- Patricia L., Muttenz</cite>
                 </div>
                 <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
-                    <p>"Verkauf war super einfach. 280 CHF für mein altes Samsung - mehr als erwartet!"</p>
+                    <p>"Verkauf war super einfach. Für mein altes Samsung Galaxy mehr bekommen als erwartet!"</p>
                     <cite>- Marco D., Basel</cite>
                 </div>
                 <div class="testimonial-card">

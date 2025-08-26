@@ -705,14 +705,15 @@ body {
     font-size: 1.8rem;
 }
 
-.price-grid {
+.price-grid, .brand-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.price-card {
+.price-card, .brand-item {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
@@ -739,11 +740,38 @@ body {
     font-weight: 700;
 }
 
-.price-note {
+.price-note, .device-note {
     text-align: center;
     font-size: 0.9rem;
     color: #888;
     font-style: italic;
+}
+
+.brand-item h4 {
+    color: #9ee058;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+
+.brand-item p {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.availability-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f5e8 100%);
+    border-radius: 12px;
+    border-left: 4px solid #9ee058;
+}
+
+.availability-info p {
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
 }
 
 /* Selling Process */
