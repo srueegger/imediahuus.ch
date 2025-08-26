@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iMediahuus Basel - 20 Jahre Vertrauen & Service</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>📱 iMediahuus</h2>
-                <span class="slogan">einfach anders denken</span>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link active">Startseite</a></li>
-                <li><a href="reparaturen.html" class="nav-link">Reparaturen</a></li>
-                <li><a href="ankauf-verkauf.html" class="nav-link">An- & Verkauf</a></li>
-            </ul>
-        </div>
-    </nav>
-
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Ihr vertrauensvoller Partner seit 20 Jahren</h1>
@@ -45,8 +17,8 @@
                 </div>
             </div>
             <div class="hero-buttons">
-                <a href="reparaturen.html" class="btn btn-primary">Reparatur anfragen</a>
-                <a href="ankauf-verkauf.html" class="btn btn-secondary">Handy verkaufen</a>
+                <a href="./reparaturen" class="btn btn-primary">Reparatur anfragen</a>
+                <a href="./ankauf-verkauf" class="btn btn-secondary">Handy verkaufen</a>
             </div>
         </div>
     </section>
@@ -59,19 +31,19 @@
                     <div class="service-icon">🔧</div>
                     <h3>Reparaturen</h3>
                     <p>Displaytausch, Akkuwechsel, Wasserschäden - wir reparieren alle Marken schnell und günstig</p>
-                    <a href="reparaturen.html" class="service-link">Mehr erfahren →</a>
+                    <a href="./reparaturen" class="service-link">Mehr erfahren →</a>
                 </div>
                 <div class="service-card">
                     <h3>Ankauf</h3>
                     <div class="service-icon">💰</div>
                     <p>Faire Preise für Ihr altes Handy - auch bei Defekten zahlen wir noch gute Preise</p>
-                    <a href="ankauf-verkauf.html" class="service-link">Mehr erfahren →</a>
+                    <a href="./ankauf-verkauf" class="service-link">Mehr erfahren →</a>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">📱</div>
                     <h3>Verkauf</h3>
                     <p>Geprüfte Gebrauchthandys mit Garantie - bis zu 50% günstiger als Neupreise</p>
-                    <a href="ankauf-verkauf.html" class="service-link">Mehr erfahren →</a>
+                    <a href="./ankauf-verkauf" class="service-link">Mehr erfahren →</a>
                 </div>
             </div>
         </div>
@@ -127,26 +99,3 @@
             </div>
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>iMediahuus</h4>
-                    <p>Ihr vertrauensvoller Partner<br>seit 20 Jahren</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Kontakt</h4>
-                    <p>Güterstrasse 249<br>4053 Basel<br>Tel: 061 554 16 00<br>E-Mail: <a href="mailto:info@imediahuus.ch">info@imediahuus.ch</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Öffnungszeiten</h4>
-                    <p>Mo-Do: 10:00-19:00<br>Fr: 10:00-12:00<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:00-19:00<br>Sa: 10:00-18:00<br>So: Geschlossen</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>

@@ -1,113 +1,81 @@
-# 📱 iMediahuus Basel
+# 🚀 iMediahuus Basel - PHP Version
 
-> **einfach anders denken** - 20 Jahre Vertrauen & Service
+> **Moderne PHP-Implementierung der iMediahuus Website**
 
-[![Website Status](https://img.shields.io/website?down_color=red&down_message=offline&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fimediahuus.ch)](https://imediahuus.ch)
-[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+## 🏗️ Architektur
 
-Die offizielle Website von **iMediahuus Basel** - Ihrem vertrauensvollen Partner für Handy-Reparaturen, Ankauf und Verkauf seit 20 Jahren.
+Diese PHP-Version verwendet einen **sauberen, modernen Ansatz**:
 
-## 🚀 Features
+### ✨ Features
+- **Clean URLs** mit `.htaccess` Routing (`/reparaturen`, `/ankauf-verkauf`)
+- **Template System** mit wiederverwendbaren Komponenten
+- **Zentrale Konfiguration** für einfache Wartung
+- **Security Headers** und Performance-Optimierungen
+- **Escaping** für XSS-Schutz
+- **Responsive Design** (gleicher CSS/JS wie HTML Version)
 
-✨ **Vollständig responsiv** - Perfekt auf allen Geräten  
-🎨 **Modernes Design** - Saubere, benutzerfreundliche Oberfläche  
-⚡ **Blitzschnell** - Keine Frameworks, pure Performance  
-🇩🇪 **Lokalisiert** - Komplett auf Deutsch für Basel  
-📱 **Mobile First** - Optimiert für Smartphone-Nutzer  
-
-## 🛠️ Services
-
-### 🔧 Reparaturen
-- **Display-Reparatur** ab 49 CHF
-- **Akku-Wechsel** ab 29 CHF  
-- **Wasserschäden** ab 59 CHF
-- **Kamera & Lautsprecher** Reparaturen
-- **6 Monate Garantie** auf alle Arbeiten
-
-### 💰 Ankauf & Verkauf
-- **Fairer Ankauf** auch für defekte Geräte
-- **Geprüfte Gebrauchthandys** mit Garantie
-- **Bis zu 50% günstiger** als Neupreise
-- **Sofortige Bewertung** und Zahlung
-
-## 🏗️ Tech Stack
-
-Diese Website ist bewusst **einfach und schnell** gehalten:
-
-- **Frontend:** Vanilla HTML5, CSS3, JavaScript
-- **Styling:** Pure CSS mit Grid & Flexbox
-- **Animationen:** Intersection Observer API
-- **Icons:** Unicode Emojis
-- **Hosting:** Statische Website (deployment-ready)
-
-## 📁 Projektstruktur
-
+### 📁 Struktur
 ```
-iMediahuus/
-├── 📄 index.html          # Homepage
-├── 📄 reparaturen.html    # Reparatur-Services
-├── 📄 ankauf-verkauf.html # Ankauf & Verkauf
-├── 🎨 styles.css          # Alle Styles
-├── ⚡ script.js           # JavaScript Funktionen
-├── 📖 README.md           # Diese Datei
-└── 🤖 CLAUDE.md           # Claude Code Dokumentation
+├── index.php              # Main router
+├── .htaccess              # URL rewriting & security
+├── includes/
+│   ├── config.php         # Site configuration
+│   ├── functions.php      # Helper functions
+│   └── template.php       # Main template
+├── pages/
+│   ├── home.php           # Homepage content
+│   ├── reparaturen.php    # Repairs page content
+│   └── ankauf-verkauf.php # Buy/sell page content
+└── assets/ (unchanged)
+    ├── styles.css
+    └── script.js
 ```
 
-## 🎯 Design Prinzipien
+## 🔧 Development
 
-- **Performance First:** Keine unnötigen Abhängigkeiten
-- **Accessibility:** Semantisches HTML und ARIA
-- **Mobile First:** Responsive Design von Grund auf
-- **Brand Colors:** Grün (#9ee058, #7bb843) als Hauptfarben
-- **User Experience:** Intuitive Navigation und klare CTAs
+### Requirements
+- PHP 7.4+ (works with PHP 8.x)
+- Apache with mod_rewrite
+- No database required
+- No Composer dependencies
 
-## 🚀 Setup & Development
-
+### Local Testing
 ```bash
-# Repository klonen
-git clone https://github.com/username/imediahuus.ch.git
+# Built-in PHP server
+php -S localhost:8000
 
-# In Verzeichnis wechseln
-cd imediahuus.ch
-
-# Lokaler Server starten (optional)
-python -m http.server 8000
-# oder
-npx serve .
-
-# Browser öffnen
-open http://localhost:8000
+# Or with Apache
+# Copy files to htdocs/www directory
 ```
 
-**Kein Build-Prozess nötig!** Einfach die HTML-Dateien im Browser öffnen.
+### URLs
+- `/` → Homepage
+- `/reparaturen` → Repairs page  
+- `/ankauf-verkauf` → Buy/sell page
 
-## 📊 Performance
+## 🛡️ Security Features
 
-- ⚡ **Ladezeit:** < 1 Sekunde
-- 📱 **Mobile Score:** 95+
-- 🎯 **Lighthouse:** 90+ in allen Kategorien
-- 📦 **Bundle Size:** ~50KB total
+- **XSS Protection** via `htmlspecialchars()` escaping
+- **Security Headers** in `.htaccess`
+- **Input Validation** for routing
+- **No Direct File Access** to includes/
 
-## 📞 Kontakt
+## 🎯 Advantages over HTML Version
 
-**iMediahuus Basel**  
-📍 Güterstrasse 249, 4053 Basel  
-📞 061 554 16 00  
+1. **DRY Principle** - No duplicate navigation/footer code
+2. **Easy Maintenance** - Change contact info in one place
+3. **Clean URLs** - SEO-friendly `/reparaturen` instead of `/reparaturen.html`
+4. **Security** - Server-side rendering prevents certain attacks
+5. **Extensibility** - Easy to add forms, dynamic content later
 
-**Öffnungszeiten:**  
-🕐 Mo-Do: 10:00-19:00  
-🕐 Fr: 10:00-12:00, 14:00-19:00  
-🕐 Sa: 10:00-18:00  
-🕐 So: Geschlossen  
+## 🚀 Deployment
 
----
+1. Upload all files to web server
+2. Ensure `.htaccess` is supported
+3. No additional setup required
 
-<div align="center">
+**That's it!** The site will work immediately with clean URLs and modern PHP architecture.
 
-**Made with ❤️ in Basel**
+## 🔄 Migration from HTML
 
-*20 Jahre Erfahrung • Faire Preise • Schneller Service*
-
-</div>
+The PHP version maintains 100% visual compatibility with the original HTML version while adding the benefits of server-side rendering and better code organization.

@@ -364,6 +364,16 @@ body {
     line-height: 1.6;
 }
 
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #9ee058;
+    text-decoration: underline;
+}
+
 /* Page Hero */
 .page-hero {
     background: linear-gradient(135deg, #9ee058, #7bb843);
