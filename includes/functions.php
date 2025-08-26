@@ -50,7 +50,7 @@ function e($string) {
  * Generate phone link
  */
 function getPhoneLink() {
-    return 'tel:' . str_replace(' ', '', CONTACT_PHONE);
+    return 'tel:+41755009000';
 }
 
 /**

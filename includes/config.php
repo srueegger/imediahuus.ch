@@ -10,7 +10,7 @@ define('SITE_SLOGAN', 'einfach anders denken');
 
 // Contact information
 define('CONTACT_ADDRESS', 'Güterstrasse 249<br>4053 Basel');
-define('CONTACT_PHONE', '061 554 16 00');
+define('CONTACT_PHONE', '075 500 90 00');
 define('CONTACT_EMAIL', 'info@imediahuus.ch');
 
 // Opening hours
