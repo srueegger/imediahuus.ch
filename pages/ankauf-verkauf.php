@@ -108,7 +108,7 @@
             </div>
 
             <div class="device-categories">
-                <h3>Große Auswahl geprüfter Smartphones</h3>
+                <h3>Grosse Auswahl geprüfter Smartphones</h3>
                 <div class="category-grid">
                     <div class="category-card">
                         <div class="category-icon">📱</div>
@@ -204,7 +204,7 @@
                 <div class="value-item">
                     <div class="value-icon">🎯</div>
                     <h3>Sofort verfügbar</h3>
-                    <p>Große Auswahl vorrätig - nehmen Sie gleich mit</p>
+                    <p>Grosse Auswahl vorrätig - nehmen Sie gleich mit</p>
                 </div>
             </div>
         </div>
