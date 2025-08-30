@@ -58,7 +58,7 @@ require_once 'includes/functions.php';
     }
     </script>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=<?php echo e(ASSET_VERSION); ?>">
 </head>
 <body>
     <nav class="navbar">
@@ -102,6 +102,6 @@ require_once 'includes/functions.php';
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=<?php echo e(ASSET_VERSION); ?>"></script>
 </body>
 </html>

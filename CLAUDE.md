@@ -114,3 +114,4 @@ This PHP site can be deployed to any web server with PHP support:
 4. No database setup required
 
 **Requirements**: PHP 7.4+, Apache with mod_rewrite
+- immer die JS und CSS Versionierung ändern, wenn an JS oder CSS etwas angepasst wird
