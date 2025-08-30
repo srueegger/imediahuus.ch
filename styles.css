@@ -539,6 +539,13 @@ body {
     text-decoration: underline;
 }
 
+.footer-logo {
+    height: auto;
+    width: 120px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
 /* Page Hero */
 .page-hero {
     background: linear-gradient(135deg, #9ee058, #7bb843);

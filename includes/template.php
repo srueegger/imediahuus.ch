@@ -87,7 +87,7 @@ require_once 'includes/functions.php';
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4><?php echo e(SITE_TITLE); ?></h4>
+                    <img src="images/logo.png" alt="<?php echo e(SITE_TITLE); ?>" class="footer-logo">
                     <p>Ihr vertrauensvoller Partner<br>seit 20 Jahren</p>
                 </div>
                 <div class="footer-section">
