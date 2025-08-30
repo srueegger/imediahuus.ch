@@ -45,7 +45,7 @@ require_once 'includes/functions.php';
         "postalCode": "4053",
         "addressCountry": "CH"
       },
-      "telephone": "+41755009000",
+      "telephone": "+41615541600",
       "email": "<?php echo e(CONTACT_EMAIL); ?>",
       "url": "https://imediahuus.ch",
       "openingHours": "Mo-Do 10:00-19:00, Fr 10:00-13:00 15:00-19:00, Sa 10:00-18:00",
