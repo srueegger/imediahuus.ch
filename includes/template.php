@@ -64,8 +64,9 @@ require_once 'includes/functions.php';
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>📱 <span class="logo-i">i</span>Mediahuus Basel</h2>
-                <span class="slogan"><?php echo e(SITE_SLOGAN); ?></span>
+                <a href="./">
+                    <img src="images/logo.png" alt="<?php echo e(SITE_TITLE); ?> - <?php echo e(SITE_SLOGAN); ?>" class="logo-img">
+                </a>
             </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
