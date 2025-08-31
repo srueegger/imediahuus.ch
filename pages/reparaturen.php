@@ -35,8 +35,6 @@
                     <ul class="repair-features">
                         <li>✓ Professionelle Reinigung</li>
                         <li>✓ Datenrettung möglich</li>
-                        <li>✓ Kostenlose Diagnose</li>
-                        <li>✓ Nur bei Erfolg zahlen</li>
                     </ul>
                 </div>
                 <div class="repair-card">
@@ -44,7 +42,6 @@
                     <h3>Lautsprecher</h3>
                     <ul class="repair-features">
                         <li>✓ Originalteile</li>
-                        <li>✓ Perfekter Sound</li>
                         <li>✓ Schnelle Reparatur</li>
                         <li>✓ Vorab-Test inklusive</li>
                     </ul>
