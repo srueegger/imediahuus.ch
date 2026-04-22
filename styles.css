@@ -228,7 +228,10 @@ body {
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
     transition: all 0.3s ease;
     border: none;
     box-shadow: 0 4px 15px rgba(158, 224, 88, 0.3);
@@ -246,7 +249,10 @@ body {
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
     transition: all 0.3s ease;
     border: 2px solid #e9ecef;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -307,8 +313,67 @@ body {
     margin-top: 2rem;
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.hero-social-buttons {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.btn-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.85rem 1.6rem;
+    min-width: 220px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-social-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+/* Google brand button */
+.btn-google {
+    background: #ffffff;
+    color: #3c4043;
+    border: 1px solid #dadce0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.btn-google:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+/* Instagram brand button */
+.btn-instagram {
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(220, 39, 67, 0.35);
+}
+
+.btn-instagram:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(220, 39, 67, 0.45);
+    filter: brightness(1.05);
 }
 
 /* Buttons */
@@ -1499,7 +1564,17 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    
+
+    .hero-social-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-social {
+        width: 240px;
+        justify-content: center;
+    }
+
     .btn {
         width: 200px;
     }
