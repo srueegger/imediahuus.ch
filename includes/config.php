@@ -9,12 +9,17 @@ define('SITE_DESCRIPTION', '20 Jahre Vertrauen & Service');
 define('SITE_SLOGAN', 'einfach anders denken');
 
 // Asset versioning for cache busting
-define('ASSET_VERSION', '1.1.0');
+define('ASSET_VERSION', '1.2.0');
 
 // Contact information
 define('CONTACT_ADDRESS', 'Güterstrasse 249<br>4053 Basel');
 define('CONTACT_PHONE', '061 554 16 00');
 define('CONTACT_EMAIL', 'info@imediahuus.ch');
+
+// Social links
+define('INSTAGRAM_URL', 'https://www.instagram.com/imediahuus.official/');
+define('INSTAGRAM_HANDLE', '@imediahuus.official');
+define('GOOGLE_REVIEW_URL', 'https://search.google.com/local/writereview?placeid=ChIJNeuv96q5kUcR766lLXZaoWs&source=g.page.m._&laa=merchant-review-solicitation');
 
 // Opening hours
 define('OPENING_HOURS', [

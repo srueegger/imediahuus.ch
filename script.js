@@ -92,6 +92,24 @@ document.querySelectorAll('.btn').forEach(btn => {
     });
 });
 
+// Open Google review in a centered popup; fall back to target="_blank" if blocked
+function openReviewPopup(url) {
+    const w = 600;
+    const h = 700;
+    const left = Math.max(0, (window.screen.width - w) / 2);
+    const top = Math.max(0, (window.screen.height - h) / 2);
+    const popup = window.open(
+        url,
+        'googleReview',
+        `width=${w},height=${h},left=${left},top=${top},resizable=yes,scrollbars=yes,noopener`
+    );
+    if (popup) {
+        popup.focus();
+        return false;
+    }
+    return true;
+}
+
 // Phone number click tracking (for analytics)
 document.querySelectorAll('a[href^="tel:"]').forEach(tel => {
     tel.addEventListener('click', function() {
