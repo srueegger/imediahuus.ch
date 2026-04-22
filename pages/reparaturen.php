@@ -70,6 +70,43 @@
         </div>
     </section>
 
+    <section class="price-lists">
+        <div class="container">
+            <h2>Preislisten</h2>
+            <p class="price-lists-intro">Transparente Preise für alle gängigen Reparaturen. Klicken Sie auf eine Preisliste, um das PDF zu öffnen.</p>
+            <div class="price-lists-grid">
+                <a href="preislisten/iphone-reparatur-preise.pdf?v=<?php echo e(ASSET_VERSION); ?>" target="_blank" rel="noopener" class="price-list-card">
+                    <div class="price-list-preview">
+                        <img src="images/preislisten/iphone-reparatur-preise.png?v=<?php echo e(ASSET_VERSION); ?>" alt="iPhone Reparatur Preisliste" loading="lazy">
+                    </div>
+                    <div class="price-list-label">
+                        <span class="price-list-title">iPhone Reparatur-Preise</span>
+                        <span class="price-list-action">📄 PDF öffnen</span>
+                    </div>
+                </a>
+                <a href="preislisten/samsung-huawei-reparatur-preise.pdf?v=<?php echo e(ASSET_VERSION); ?>" target="_blank" rel="noopener" class="price-list-card">
+                    <div class="price-list-preview">
+                        <img src="images/preislisten/samsung-huawei-reparatur-preise.png?v=<?php echo e(ASSET_VERSION); ?>" alt="Samsung &amp; Huawei Reparatur Preisliste" loading="lazy">
+                    </div>
+                    <div class="price-list-label">
+                        <span class="price-list-title">Samsung &amp; Huawei Reparatur-Preise</span>
+                        <span class="price-list-action">📄 PDF öffnen</span>
+                    </div>
+                </a>
+                <a href="preislisten/ipad-pc-reparatur-preise.pdf?v=<?php echo e(ASSET_VERSION); ?>" target="_blank" rel="noopener" class="price-list-card">
+                    <div class="price-list-preview">
+                        <img src="images/preislisten/ipad-pc-reparatur-preise.png?v=<?php echo e(ASSET_VERSION); ?>" alt="iPad &amp; PC Reparatur Preisliste" loading="lazy">
+                    </div>
+                    <div class="price-list-label">
+                        <span class="price-list-title">iPad &amp; PC Reparatur-Preise</span>
+                        <span class="price-list-action">📄 PDF öffnen</span>
+                    </div>
+                </a>
+            </div>
+            <p class="price-lists-note">Alle Preise in CHF inkl. MwSt. Änderungen vorbehalten. Der verbindliche Endpreis wird nach der kostenlosen Diagnose bestätigt.</p>
+        </div>
+    </section>
+
     <section class="device-types">
         <div class="container">
             <h2>Welche Geräte reparieren wir?</h2>

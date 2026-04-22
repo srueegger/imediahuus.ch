@@ -9,7 +9,7 @@ define('SITE_DESCRIPTION', '20 Jahre Vertrauen & Service');
 define('SITE_SLOGAN', 'einfach anders denken');
 
 // Asset versioning for cache busting
-define('ASSET_VERSION', '1.0.0');
+define('ASSET_VERSION', '1.1.0');
 
 // Contact information
 define('CONTACT_ADDRESS', 'Güterstrasse 249<br>4053 Basel');
