@@ -4,9 +4,11 @@
  * Simple routing and templating system
  */
 
-// Error reporting for development
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// Error reporting: show errors only in local dev (DDEV), never in production
+$is_dev = getenv('IS_DDEV_PROJECT') === 'true';
+error_reporting($is_dev ? E_ALL : 0);
+ini_set('display_errors', $is_dev ? '1' : '0');
+ini_set('log_errors', '1');
 
 // Simple router
 $request_uri = $_SERVER['REQUEST_URI'];
